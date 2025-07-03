@@ -1,0 +1,12 @@
+.cell-input {
+  width: 100%;
+  max-width: 100px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+}

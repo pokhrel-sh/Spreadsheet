@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "airbnb-typescript",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "prettier", "react", "import"],
+  "rules": {
+    // You can add custom rules here
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": "error",
+    "import/extensions": "error",
+    "import/no-extraneous-dependencies": "error"
+  }
+}

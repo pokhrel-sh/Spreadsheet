@@ -1,0 +1,52 @@
+.api-sidebar {
+  width: 300px;
+  background: #f9f9f9;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.api-list {
+  margin-bottom: 20px;
+}
+
+.api-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.api-item:hover {
+  background: #f0f0f0;
+}
+
+.api-item.selected {
+  background: #d9f7be;
+  border-color: #52c41a;
+}
+
+.api-config-form input,
+.api-config-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.api-config-form button {
+  width: 100%;
+  padding: 10px;
+  background: #52c41a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.api-config-form button:hover {
+  background: #3e8e41;
+}
